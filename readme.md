@@ -63,7 +63,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Je opdracht:** -Jennifer Xiao https://www.jenniferxiao.com/ -
 
 **Screenshot(s):**
-
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/foto1.png)
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/foto2.png)
 
