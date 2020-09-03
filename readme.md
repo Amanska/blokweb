@@ -60,7 +60,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** -responsive-
 
-**Je opdracht:** -DeviantArt https://www.deviantart.com/ -
+**Je opdracht:** -Jennifer Xiao https://www.jenniferxiao.com/ -
 
 **Screenshot(s):**
 
