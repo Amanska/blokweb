@@ -56,7 +56,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** -blauw-
+**Je startniveau:** -blauw- Ik heb nog niet veel ervaring met HTML en CSS en wil het rustig aan doen.
 
 **Je focus:** -responsive-
 
