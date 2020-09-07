@@ -60,13 +60,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** -responsive-
 
-**Je opdracht:** -Jennifer Xiao https://www.jenniferxiao.com/ -
+**Je opdracht:** -Jennifer Xiao (Shop) https://shop.jenniferxiao.com/ ( main website  https://www.jenniferxiao.com/ ) -
 
 **Screenshot(s):**
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/foto1.png)
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/foto2.png)
+Hoewel ik heel graag iets zou willen doen met de volgende foto's van de main website, heb ik besloten mij te focusen op de shop pagina.
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/foto4.jpg)
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/foto3.jpg)
+
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/foto5.jpg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/foto6.jpg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/foto7.jpg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/foto8.jpg)
 
 
 **Breakdown-schets(en):**
