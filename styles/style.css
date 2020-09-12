@@ -19,20 +19,27 @@ body {
     margin:0;
 }
 
-h1,p {
+h1,h2,h3,h4,p {
 	font-family: 'source sans';
 	font-weight: bold;
-	text-align: center;
 }
 
 header {
- 	position:sticky;
+ 	position:relative;
 	top:0;
 	left:0;
 	right:0;
 	margin:0; padding:.5em;
 	background-color: #6EE6DD;
 	transition: 0.6s ease;
+
+}
+header p {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align: center;
+
 }
 
 #logo {
@@ -42,6 +49,7 @@ header {
 	flex-wrap: wrap;
 	justify-content: center;
 	margin:0; padding:.5em;
+	align-items:center;
 }
 
 nav {
@@ -65,10 +73,26 @@ nav li {
 	margin: 1em;
 }
 
-#socks {
+button {
 	height: auto;
 	max-width: 100%;
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	justify-content: center;
+	margin:0; padding:.5em;}
+
+img {
+    display: block;
+    max-height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: .8em;
+}
+
+#fotobladeren img {
+    display: block;
+    max-height: 20em;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: .8em;
 }
