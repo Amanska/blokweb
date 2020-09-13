@@ -74,12 +74,14 @@ nav li {
 }
 
 button {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items:center;
+	margin:0; padding:.5em;
 	height: auto;
 	max-width: 100%;
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: center;
-	margin:0; padding:.5em;}
+}
 
 img {
     display: block;
@@ -95,4 +97,37 @@ img {
     max-width: 100%;
     margin: 0 auto;
     border-radius: .8em;
+}
+
+#new {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	align-items:baseline;
+	align-content: center;
+	flex-grow: 1;
+ 	max-width: 40em;
+}
+
+#new img {
+	height: 10em;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: .8em;
+}
+
+#foot {
+ 	position:relative;
+	top:0;
+	left:0;
+	right:0;
+	margin:0; padding:.5em;
+	background-color: #FF5D3F;
+}
+
+#foot p {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align: center;
 }

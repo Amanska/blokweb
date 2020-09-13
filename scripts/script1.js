@@ -1,7 +1,7 @@
 console.log('bladeren js');
 
 // data: het foto boek
-var fotos = ['alles.jpg','cheetopuff1.jpg', 'stickers.jpg', 'tiger.jpg'];
+var fotos = ['alles.jpg', 'stickers.jpg', 'tiger.jpg'];
 /*eslint 'no-console':0*/
 // a. DOM elementen die een rol spelen in dit script
 var fotoImg = document.querySelector('#foto');
