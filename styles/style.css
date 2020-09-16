@@ -19,6 +19,12 @@ body {
     margin:0;
 }
 
+section,div {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
 h1,h2,h3,h4,p {
 	font-family: 'source sans';
 	font-weight: bold;
@@ -88,15 +94,15 @@ img {
     max-height: auto;
     max-width: 100%;
     margin: 0 auto;
-    border-radius: .8em;
+    padding: .5em;
 }
 
 #fotobladeren img {
     display: block;
-    max-height: 20em;
+    max-height: 30em;
     max-width: 100%;
     margin: 0 auto;
-    border-radius: .8em;
+    padding: .5em;
 }
 
 #new {
@@ -106,14 +112,14 @@ img {
 	align-items:baseline;
 	align-content: center;
 	flex-grow: 1;
- 	max-width: 40em;
+ 	max-width: 60em;
 }
 
 #new img {
 	height: 10em;
     max-width: 100%;
     margin: 0 auto;
-    border-radius: .8em;
+    padding: .5em;
 }
 
 #foot {
