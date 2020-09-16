@@ -16,18 +16,17 @@ body {
 	position: relative;
 	display: block;
     background-color: white;
-    margin:0;
+    margin:auto;
 }
 
 section,div {
-	display:flex;
-	justify-content:center;
-	align-items:center;
+	margin: auto;
 }
 
 h1,h2,h3,h4,p {
 	font-family: 'source sans';
 	font-weight: bold;
+	text-align: center
 }
 
 header {
@@ -84,7 +83,7 @@ button {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items:center;
-	margin:0; padding:.5em;
+	margin:auto; padding:.5em;
 	height: auto;
 	max-width: 100%;
 }
