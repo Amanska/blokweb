@@ -38,15 +38,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Ik ben tevreden met hoe responsive de site tot nu toe is. Wat mij lastig afgaat is de foto's scalen en op de juiste posititie zetten.
+Ook wil ik nog in de header wat items doen, maar weet ik nog niet zeker hoe dit werkt. 
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![Jennifer Xiao shop website main pagina](images/foto5.jpg)
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+We gaan op alfabetische volgorde onze lastige punten af.
 
 ### Verslag van meeting
 
