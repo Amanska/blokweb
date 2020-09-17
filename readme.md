@@ -43,7 +43,7 @@ Ook wil ik nog in de header wat items doen, maar weet ik nog niet zeker hoe dit 
 
 **Screenshot(s):**
 
-![Jennifer Xiao shop website main pagina](images/foto5.jpg)
+![Jennifer Xiao shop website main pagina](images/week3.png)
 
 ### Agenda voor meeting
 
