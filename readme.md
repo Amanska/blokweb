@@ -49,11 +49,19 @@ Ook wil ik nog in de header wat items doen, maar weet ik nog niet zeker hoe dit 
 
 We gaan op alfabetische volgorde onze lastige punten af.
 lastige punten:
--tekst toevoegen onder afbeeldingen 
+-tekst toevoegen onder afbeeldingen
+-HTML markup
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Er is vertelt hoe je navigatie menus beter kan maken, deels door gebruik te maken van SVG afbeeldingen die hun kwaliteit behouden en beter responsive zijn. 
+Verder is er een nadruk gelegt over het belang van buttons te gebruiken voor klikbare elementen - omdat deze makkelijker te gebruiken zijn (geen Javascript nodig) én toetsenbord vriendelijk zijn.
+Ook is er kort gesproken over carrousels en hoe dit makkelijker gedaan kan worden door middel van X-scroll te gebruiken in de CSS, zo hoeft er niet een totale javascript aangemaakt te worden (zoals ik heb gedaan).
+Aan mij is uitgelegt dat mijn code niet helemaal klopte i.v.m. de headings (dit is nu aangepast). 
+Ook is mij verteld hoe ik mijn tekst bij mijn afbeelding kan doen door middel van articles te gebruiken. (immedels ook aangepast).
+
+Ten slotte heb ik meegekregen dat ik het logo van de website een klikbaar plaatje kan maken, zodat een gebruiker direct terug zou komen op de main pagina.
+
 
 
 
