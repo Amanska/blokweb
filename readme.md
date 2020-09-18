@@ -48,6 +48,8 @@ Ook wil ik nog in de header wat items doen, maar weet ik nog niet zeker hoe dit 
 ### Agenda voor meeting
 
 We gaan op alfabetische volgorde onze lastige punten af.
+lastige punten:
+-tekst toevoegen onder afbeeldingen 
 
 ### Verslag van meeting
 
