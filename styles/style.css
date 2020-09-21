@@ -19,14 +19,15 @@ body {
     margin:auto;
 }
 
-section,div {
-	margin: auto;
-}
 
 h1,h2,h3,h4,p {
 	font-family: 'source sans';
 	font-weight: 400;
 	text-align: center;
+}
+
+section,div {
+	margin: auto;
 }
 
 header {
@@ -47,12 +48,14 @@ header p {
 }
 
 #logo {
+	position: relative;
 	height: auto;
-	max-width: 30em;
+	max-width: 50vw;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin:auto; padding:.5em;
+	margin:auto; 
+	padding:.5em;
 	align-items:center;
 }
 
@@ -89,7 +92,7 @@ button {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items:center;
-	margin:auto; padding:.5em;
+	margin:0; padding:.5em;
 	height: auto;
 	max-width: 100%;
 }
@@ -139,40 +142,40 @@ img {
 
 
 #fotobladeren {
-  position: relative;
-  width: 50%;
+	position: relative;
+	width: 50%;
 }
 
 #fotobladeren #btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #FFB300;
-  color: white;
-  font-size: 1em;
-  padding: 15px 15px;
-  border: none;
-  cursor: pointer;
-  text-transform: uppercase;
-  font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #FFB300;
+	color: white;
+	font-size: 1em;
+	padding: 15px 15px;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 #btn:hover {
-	  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #FFC232;
-  color: white;
-  font-size: 1em;
-  padding: 15px 15px;
-  border: none;
-  cursor: pointer;
-  text-transform: uppercase;
-  font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #FFC232;
+	color: white;
+	font-size: 1em;
+	padding: 15px 15px;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 #fotobladeren img {
@@ -182,17 +185,24 @@ img {
     margin: 0 auto;
     padding: .5em;
 }
+#fotobladeren2 img {
+    display: block;
+    max-height: 30em;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: .5em;
+}
 
-#icon-bar img {
+/*img {
   width: 1.5em;
   height: auto;
 }
 
-#icon-bar #hamburger {
+header #hamburger {
   position: absolute;
   left: 0;
 }
-#icon-bar #cart {
+header #cart {
   position: absolute;
   right: 0;
-}
+}*/
