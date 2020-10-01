@@ -110,7 +110,7 @@ background-color: #FFC232;
 img {
     display: block;
     max-height: auto;
-    max-width: 100%;
+    max-width: 50%;
     margin: 0 auto;
     padding: .5em;
 }
