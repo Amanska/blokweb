@@ -49,7 +49,8 @@ lastige punten:
 
 ### Verslag van meeting
 
-x
+Ik heb een tip gekregen over een hamburger menu te maken en hoe de navigatie bar verebtered kan worden. De foto's die momenteel in de buttons staan kunnen beter in de CSS als achtergrond element staan. Er stond een div op een section die ook onnodig was, deze is nu verwijderd.
+Voor de carrousels moet ik kijken voor een andere code en ze moeten beter opgemaakt worden. Twee .js file's zijn overbodig en de arrays kunnen beter in één bestand samengevoegd worden.
 
 
 ## Voortgang 1 (week 3)
