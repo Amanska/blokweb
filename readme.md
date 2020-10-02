@@ -34,7 +34,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 Ik ben redelijk tevreden met de main pagina, alhoewel nog niet alles in orde is. De instagram carrousel is nog steeds niet bestaand en de andere carrousels die met javascript werken zijn buggy en hebbe her-overweging nodig. Wel ben ik blij met hoe de grid en responsive-heid werkt van de algehele pagina.
 
-![Jennifer Xiao shop website main pagina](images/voortgang2.png)
+![Jennifer Xiao shop website main pagina ](images/voortgang2.png)
 ![Jennifer Xiao shop website detail shop pagina](images/voortgang22.png)
 
 ### Agenda voor meeting
