@@ -8,7 +8,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. https://www.w3schools.com/graphics/svg_intro.asp
 2. https://css-tricks.com/snippets/css/complete-guide-grid/
-3. -...-
+3. https://css-tricks.com/introducing-css-scroll-snap-points/
+4. https://www.w3schools.com/howto/
 
 
 
