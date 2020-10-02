@@ -7,7 +7,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. https://www.w3schools.com/graphics/svg_intro.asp
-2. -bron 2-
+2. https://css-tricks.com/snippets/css/complete-guide-grid/
 3. -...-
 
 
@@ -30,8 +30,26 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
 
+Ik ben redelijk tevreden met de main pagina, alhoewel nog niet alles in orde is. De instagram carrousel is nog steeds niet bestaand en de andere carrousels die met javascript werken zijn buggy en hebbe her-overweging nodig. Wel ben ik blij met hoe de grid en responsive-heid werkt van de algehele pagina.
+
+![Jennifer Xiao shop website main pagina](images/voortgang2.png)
+![Jennifer Xiao shop website detail shop pagina](images/voortgang22.png)
+
+### Agenda voor meeting
+
+We gaan op alfabetische volgorde onze lastige punten af.
+lastige punten:
+-buttons
+-grid
+-hover elementen
+-draggable elementen
+-nav bar
+
+### Verslag van meeting
+
+x
 
 
 ## Voortgang 1 (week 3)
