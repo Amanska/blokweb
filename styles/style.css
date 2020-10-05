@@ -79,6 +79,7 @@ nav a:hover{
 nav ul {
 	list-style-type: none;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content:center;
 	margin: 0;
 
@@ -87,15 +88,30 @@ nav li {
 	margin: 1em;
 }
 
-button img:first-of-type {
-height:1em;
-margin:0; 
-padding:.5em;
-border: none;
-color: black;
-background-color: #FFC232;
+button{
+	border: none;
+	background-image: ;
 }
 
+#btn {
+	position: relative;
+	display: block;
+	margin: auto;
+	background-color: #FFC232;
+	color: white;
+	font-size: 1em;
+	padding: 15px 15px;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#carrouselbutton{
+	position: relative;
+	display: block;
+	margin: auto;
+}
 
 /*button {
 	display:flex;
@@ -123,6 +139,13 @@ body > section:nth-of-type(2) {
 }
 
 body > section:nth-of-type(3) {
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: start;
+	grid-gap: 1 rem;
+}
+
+body > section container:nth-of-type(4) {
 	display: grid;
 	grid-template-columns: 1fr;
 	align-items: start;
@@ -167,7 +190,7 @@ footer p {
 	font-weight: bold;
 }*/
 
-section > button:nth-of-type(1) {
+/*section > button:nth-of-type(1) {
 	position: relative;
 	top: 50%;
 	left: 50%;
@@ -181,7 +204,7 @@ section > button:nth-of-type(1) {
 	cursor: pointer;
 	text-transform: uppercase;
 	font-weight: bold;
-}
+}*/
 
 /*#fotobladeren img {
     display: block;
