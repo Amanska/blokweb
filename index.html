@@ -11,8 +11,10 @@
 		<header>
 			<h1>Jennifer Xiao shop</h1>		
 			<p>Only shipping to US, Canada, Mexico due to USPS delays</p>
-			<button ><img src="images/hamburger.png"></button>
-			<button ><img src="images/cart.png"></button>
+			<button class='cartbutton'>C</button>
+			<form action="index.html">
+				<button class='searchbutton'>S</button>
+				<input type="text" name="search" placeholder="Search">
 			<img src="images/logo.svg" alt="Logo Jennifer Xiao">
 			<nav>
 				<ul>
@@ -28,11 +30,9 @@
 		<section>
 			<h2>photo gallery</h2>
 				<img src="images/alles.jpg" alt="items for sale" id='foto'>
-				<button id="btn">Shop all</button>
-				<div id='carrouselbutton'>
-					<button id='terug'>&lt;</button>
-					<button id='vooruit'>&gt;</button>
-				</div>
+				<button class="btn">Shop all</button>
+					<button class='terug'>&lt;</button>
+					<button class='vooruit'>&gt;</button>
 		</section>
 		<section>
 			<h2>New Things!!</h2>
@@ -129,7 +129,7 @@
 			</article>
 			<article>
 				<img src="images/stationairy.gif" alt="Pink and blue notebook with illustrations">
-				<h3>Stationery</h3>>
+				<h3>Stationery</h3>
 			</article>
 			<atricle>	
 				<img src="images/awardribbons.jpg" alt="Yellow ribbon with text">
@@ -154,11 +154,9 @@
 		</section>
 		<section>
 			<h2>photo gallery</h2>
-			<div id='fotobladeren2'>
 				<img src="images/alles.jpg" alt="items for sale" id='foto2'>
 				<button id='terug2'>&lt;</button>
 				<button id='vooruit2'>&gt;</button>
-			</div>
 		</section>
 		<section>
 			<h2> Instagram </h2>
@@ -167,7 +165,6 @@
 				<img src="images/instagram3.jpg" alt="Cheetpuff tiger">
 				<img src="images/instagram4.jpg" alt="Cheetpuff tiger">
 				<img src="images/instagram5.jpg" alt="Print pasta comic">
-				<img src="images/instagram6.jpg" alt="Cheetpuff tiger">
 				<img src="images/instagram6.jpg" alt="Cheetpuff tiger">
 		</section>
 		<script src='scripts/script1.js'></script>
