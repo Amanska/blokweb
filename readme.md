@@ -25,8 +25,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+###stand van zaken
 
+### Agenda voor meeting
+- Amanda: Button een image geven, vragen over postioneren
+- Sabine: Stylen van form elementen
+- Noah en cas: vraag hamburger menu mobiel naar volledig menu op desktop
 
 
 ## Voortgang 2 (week 5)
