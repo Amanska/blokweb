@@ -11,6 +11,8 @@
   src: url("fonts/SourceSansPro-Bold.ttf") ;
 }
 
+/**************Main pagina en font styling**************/
+
 
 body { 
 	position: relative;
@@ -29,6 +31,9 @@ h1,h2,h3,h4,p {
 section,div {
 	margin: auto;
 }
+
+/**************Header en Navigation styling**************/
+
 
 .headerbalk{
 	position: relative;
@@ -89,8 +94,9 @@ nav li {
 	height: 25px;
 	width: 25px;
 	margin: auto;
-	background-image: url("/images/cart.png");
+	background-image: url("..//..//images/search.png");
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 .cartbutton {
 	position: relative;
@@ -99,7 +105,9 @@ nav li {
 	height: 25px;
 	width: 25px;
 	margin: auto;
+	background-image: url("..//..//images/cart.png");
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 input {
 	position: relative;
@@ -108,6 +116,8 @@ input {
 	height: 2em;
 	margin: auto;
 }
+
+/**************Speciaal button styling**************/
 
 
 #btn {
@@ -124,11 +134,17 @@ input {
 	font-weight: bold;
 }
 
+/**************Standaard button styling**************/
+
 button {
 	position: relative;
 	display: block;
 	margin: auto;
+	background: transparent;
 }
+
+/**************Standaard styling IMG**************/
+
 img {
     display: block;
     max-height: auto;
@@ -136,6 +152,9 @@ img {
     margin: 0 auto;
     padding: .5em;
 }
+
+/**************Body sections styling**************/
+
 
 body > section:nth-of-type(2) {
 	display: grid;
@@ -149,13 +168,8 @@ body > section:nth-of-type(3) {
 	padding: 9em;
 }
 
+/**************Footer styling**************/
 
-/*body > section container:nth-of-type(3) {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	align-items: start;
-	grid-gap: 1 rem;
-}*/
 
 footer {
  	position:relative;
@@ -173,6 +187,29 @@ footer p {
 	text-align: center;
 }
 
+/**************Alle focus elementen**************/
+
+img:focus {
+	transition: .3s;
+	outline: 3px solid orange;
+	background: #F6F0EB;	
+}
+button:focus {
+	transition: .3s;
+	outline: 3px solid orange;
+}
+a:focus {
+	transition: .3s;
+	outline: 3px solid orange;
+	background: #F6F0EB;	
+}
+form:focus {
+	transition: .3s;
+	outline: 3px solid orange;
+	background: #F6F0EB;	
+}
+
+/*************Media element posities code*******/
 
 @media (min-width: 40em){
 

@@ -11,6 +11,8 @@
   src: url("fonts/SourceSansPro-Bold.ttf") ;
 }
 
+/**************Main pagina en font styling**************/
+
 
 body { 
 	position: relative;
@@ -29,6 +31,9 @@ h1,h2,h3,h4,p {
 section,div {
 	margin: auto;
 }
+
+/**************Header en Navigation styling**************/
+
 
 .headerbalk{
 	position: relative;
@@ -101,8 +106,9 @@ nav li {
 	height: 25px;
 	width: 25px;
 	margin: auto;
-	background-image: url("/images/cart.png");
+	background-image: url("..//..//images/search.png");
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 .cartbutton {
 	position: relative;
@@ -111,7 +117,9 @@ nav li {
 	height: 25px;
 	width: 25px;
 	margin: auto;
+	background-image: url("..//..//images/cart.png");
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 input {
 	position: relative;
@@ -121,6 +129,7 @@ input {
 	margin: auto;
 }
 
+/**************Speciaal button styling**************/
 
 #btn {
 	position: relative;
@@ -136,10 +145,14 @@ input {
 	font-weight: bold;
 }
 
+/**************Standaard button styling**************/
+
+
 button {
 	position: relative;
 	display: block;
 	margin: auto;
+	background: transparent;
 }
 
 /*button {
@@ -151,6 +164,8 @@ button {
 	height: auto;
 	max-width: 100%;
 }*/
+/**************Standaard styling IMG**************/
+
 
 img {
     display: block;
@@ -159,6 +174,9 @@ img {
     margin: 0 auto;
     padding: .5em;
 }
+
+/**************Body sections styling**************/
+
 
 body > section:nth-of-type(2) {
 	display: grid;
@@ -181,6 +199,8 @@ body > section container:nth-of-type(4) {
 	grid-gap: 1 rem;
 }
 
+/**************Footer styling**************/
+
 
 footer {
  	position:relative;
@@ -198,11 +218,36 @@ footer p {
 	text-align: center;
 }
 
+/**************Foto bladeren IMG grootte**************/
 
 #fotobladeren {
 	position: relative;
 	width: 50%;
 }
+
+/**************Alle focus elementen**************/
+
+article:focus {
+	transition: .3s;
+	outline: 3px solid orange;
+	background: #F6F0EB;	
+}
+button:focus {
+	transition: .3s;
+	outline: 3px solid orange;
+}
+a:focus {
+	transition: .3s;
+	outline: 3px solid orange;
+	background: #F6F0EB;	
+}
+form:focus {
+	transition: .3s;
+	outline: 3px solid orange;
+	background: #F6F0EB;	
+}
+
+
 
 /*#fotobladeren #btn {
 	position: absolute;
@@ -251,6 +296,7 @@ footer p {
     padding: .5em;
 }*/
 
+/*************Media element posities code*******/
 
 
 @media (min-width: 40em){
