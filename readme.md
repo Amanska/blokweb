@@ -25,13 +25,18 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
-###stand van zaken
+### stand van zaken
+![Jennifer Xiao shop website main pagina ](images/voortgang3.png)
+![Jennifer Xiao shop website detail shop pagina](images/voortgang33.png)
 
 ### Agenda voor meeting
 - Amanda: Button een image geven, vragen over postioneren
 - Sabine: Stylen van form elementen
 - Noah en cas: vraag hamburger menu mobiel naar volledig menu op desktop
 
+### Verslag van meeting
+
+De foto's van de buttons zijn nu correct geplaatst in de CSS. Er is verder niet veel extra verteld over mijn pagina, wel heb ik meegekregen hoe er een tab index aangemaakt moet worden en zal ik dit voor mijn volgende ontwerp meenemen.
 
 ## Voortgang 2 (week 5)
 
