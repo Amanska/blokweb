@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<link rel="stylesheet" type="js" href="scripts/script2.js">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Jennifer Xiao Shop</title>
 	</head>
@@ -29,13 +30,24 @@
 			</nav>
 		</header>
 	<!--Navigation-->
-	
 		<section>
 			<h2>photo gallery</h2>
-				<img src="images/alles.jpg" alt="items for sale" id='foto'>
-				<button class="btn">Shop all</button>
-					<button class='terug'>&lt;</button>
-					<button class='vooruit'>&gt;</button>
+				<div class="testimonials">
+				   <div class="scroller">
+				   	<span tabindex="0" class="btn prev">&lt;</span>
+					<span tabindex="0" class="btn next">&gt;</span>
+				       <div class="item">
+							<img src="images/example1.jpg" alt="Print pasta comic">
+				       </div>
+				       <div class="item">
+							<img src="images/example2.jpg" alt="Print pasta comic">
+				       </div>
+				       <div class="item">
+				       		<img src="images/example3.jpg" alt="Print pasta comic">
+				       </div>
+				   </div>
+			     <button id='btn'>Shop</button>
+				</div>
 		</section>
 		<section>
 			<h2>New Things!!</h2>
@@ -157,9 +169,22 @@
 		</section>
 		<section>
 			<h2>photo gallery</h2>
-				<img src="images/alles.jpg" alt="items for sale" id='foto2'>
-				<button id='terug2'>&lt;</button>
-				<button id='vooruit2'>&gt;</button>
+				<div class="testimonials">
+				   <div class="scroller">
+				   	<span tabindex="0" class="btn prev">&lt;</span>
+					<span tabindex="0" class="btn next">&gt;</span>
+				       <div class="item">
+							<img src="images/shop1.jpg" alt="Print pasta comic">
+				       </div>
+				       <div class="item">
+							<img src="images/shop2.jpg" alt="Print pasta comic">
+				       </div>
+				       <div class="item">
+				       		<img src="images/tigerhat.jpg" alt="Print pasta comic">
+				       </div>
+				   </div>
+			     <button id='btn'>Shop</button>
+				</div>
 		</section>
 		<section>
 			<h2> Instagram </h2>
@@ -170,8 +195,6 @@
 				<img src="images/instagram5.jpg" alt="Print pasta comic">
 				<img src="images/instagram6.jpg" alt="Cheetpuff tiger">
 		</section>
-		<script src='scripts/script1.js'></script>
-		<script src='scripts/script2.js'></script>
 	</body>
 	<footer>
 		<section>
@@ -186,6 +209,9 @@
 				Newsletter
 				Sign up for infrequent updates about new stuff and coupon codes. I promise I won't send chain emails... 
 			</p>
+		<script src='scripts/script2.js'></script>
 		</section>
 	</footer>
 </html>
+
+<!-- bronnen: https://1stwebdesigner.com/create-a-carousel-using-css-scroll-snap-and-javascript/ -->

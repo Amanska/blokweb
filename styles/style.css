@@ -81,9 +81,7 @@ nav a{
 }
 
 nav a:hover{
-	text-decoration: none;
 	color: #FFB300;
-	text-transform: uppercase;
 }
 
 
@@ -132,8 +130,11 @@ input {
 /**************Speciaal button styling**************/
 
 #btn {
-	position: relative;
-	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 	margin: auto;
 	background-color: #FFC232;
 	color: white;
@@ -143,6 +144,11 @@ input {
 	cursor: pointer;
 	text-transform: uppercase;
 	font-weight: bold;
+}
+
+#btn:hover {
+	background-color: #FFCC53;
+	transition: .3s;
 }
 
 /**************Standaard button styling**************/
@@ -155,6 +161,10 @@ button {
 	background: transparent;
 }
 
+button:hover {
+	 transform: translateY(3px);
+} 
+
 /*button {
 	display:flex;
 	flex-wrap: wrap;
@@ -164,6 +174,65 @@ button {
 	height: auto;
 	max-width: 100%;
 }*/
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: .5s;
+  animation-name: fade;
+  animation-duration: .5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/**************codepen code carrousel**************/
+/*carrousel*/
+.testimonials {
+   max-width: 100em;
+   margin: auto;
+   position: relative;
+}
+.testimonials .btn {
+   position: absolute;
+   top: 50%;
+   margin-top: 20px;
+   height: 30px;
+   width: 30px;
+   border-radius: 15px;
+   background-color: rgba(95, 106, 117, 0.3);
+   z-index: 1;
+   line-height: 30px;
+   text-align: center;
+   color: white;
+   font-weight: bold;
+}
+.testimonials .btn:hover{
+   background-color: rgba(95, 106, 117, 0.5);
+   cursor: pointer;
+}
+.testimonials .btn.next {
+   right: 15px;
+}
+.testimonials .btn.prev {
+   left: 15px;
+}
+.scroller {
+   overflow-x: scroll;
+   display: flex;
+   scroll-snap-type: x mandatory;
+}
+.item {
+   min-width: 100%;
+   min-height: 5em; /* To start with */
+   scroll-snap-align: center;
+}
 /**************Standaard styling IMG**************/
 
 
@@ -174,6 +243,13 @@ img {
     margin: 0 auto;
     padding: .5em;
 }
+
+article:hover {
+	background-color:rgba(192,192,192,0.3);
+  	transform: translateY(3px);
+  	transition: .3s;
+}
+
 
 /**************Body sections styling**************/
 
