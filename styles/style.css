@@ -271,6 +271,46 @@ button:hover {
    min-height: 5em;
    scroll-snap-align: center;
 }
+/*****Ik kwam er niet uit dus heb ik een tweede gemaakt voor tweede carrousel*****/
+.testimonials2 {
+   max-width: 100em;
+   margin: auto;
+   position: relative;
+}
+.testimonials2 .btn {
+   position: absolute;
+   top: 50%;
+   margin-top: 20px;
+   height: 30px;
+   width: 30px;
+   border-radius: 15px;
+   background-color: rgba(95, 106, 117, 0.3);
+   z-index: 1;
+   line-height: 30px;
+   text-align: center;
+   color: white;
+   font-weight: bold;
+}
+.testimonials2 .btn:hover {
+   background-color: rgba(95, 106, 117, 0.5);
+   cursor: pointer;
+}
+.testimonials2 .btn.next2 {
+   right: 15px;
+}
+.testimonials2 .btn.prev2 {
+   left: 15px;
+}
+.scroller2 {
+   overflow-x: scroll;
+   display: flex;
+   scroll-snap-type: x mandatory;
+}
+.item2 {
+   min-width: 100%;
+   min-height: 5em;
+   scroll-snap-align: center;
+}
 /**************Standaard styling IMG**************/
 
 
