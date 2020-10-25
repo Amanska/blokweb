@@ -1,14 +1,14 @@
 @font-face {
-  font-family: "source sans";
-  src: url("fonts/SourceSansPro-Regular.ttf") ;
+	font-family: "source sans";
+	src: url("fonts/SourceSansPro-Regular.ttf") ;
 }
 @font-face {
-  font-family: "source sans light";
-  src: url("fonts/SourceSansPro-Light.ttf") ;
+	font-family: "source sans light";
+	src: url("fonts/SourceSansPro-Light.ttf") ;
 }
 @font-face {
-  font-family: "source sans bold";
-  src: url("fonts/SourceSansPro-Bold.ttf") ;
+	font-family: "source sans bold";
+	src: url("fonts/SourceSansPro-Bold.ttf") ;
 }
 
 /**************Main pagina en font styling**************/
@@ -30,6 +30,11 @@ h1,h2,h3,h4,p {
 
 section,div {
 	margin: auto;
+}
+
+/**************Hidden styling**************/
+.hide {
+	visibility: hidden;
 }
 
 /**************Header en Navigation styling**************/
@@ -80,10 +85,13 @@ nav a{
 	text-transform: uppercase;
 }
 
-nav a:hover{
+nav a:focus{
 	color: #FFB300;
 }
 
+nav a:hover{
+	color: #FFB300;
+}
 
 nav ul {
 	list-style-type: none;
@@ -146,11 +154,36 @@ input {
 	font-weight: bold;
 }
 
+#btn:focus {
+	background-color: #FFCC53;
+	transition: .3s;
+}
 #btn:hover {
 	background-color: #FFCC53;
 	transition: .3s;
 }
 
+#subscribebutton {
+	position: relative;
+	margin: auto;
+	background-color: #FFC232;
+	color: white;
+	font-size: 1em;
+	padding: 15px 15px;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#subscribebutton:focus {
+	background-color: #FFCC53;
+	transition: .3s;
+}
+#subscribebutton:hover {
+	background-color: #FFCC53;
+	transition: .3s;
+}
 /**************Standaard button styling**************/
 
 
@@ -161,9 +194,12 @@ button {
 	background: transparent;
 }
 
+button:focus {
+	transform: translateY(3px);
+}
 button:hover {
-	 transform: translateY(3px);
-} 
+	transform: translateY(3px);
+}  
 
 /*button {
 	display:flex;
@@ -176,15 +212,15 @@ button:hover {
 }*/
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: .5s;
-  animation-name: fade;
-  animation-duration: .5s;
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: .5s;
+	animation-name: fade;
+	animation-duration: .5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+	from {opacity: .4}
+	to {opacity: 1}
 }
 
 @keyframes fade {
@@ -193,7 +229,6 @@ button:hover {
 }
 
 /**************codepen code carrousel**************/
-/*carrousel*/
 .testimonials {
    max-width: 100em;
    margin: auto;
@@ -213,7 +248,7 @@ button:hover {
    color: white;
    font-weight: bold;
 }
-.testimonials .btn:hover{
+.testimonials .btn:hover {
    background-color: rgba(95, 106, 117, 0.5);
    cursor: pointer;
 }
@@ -230,7 +265,7 @@ button:hover {
 }
 .item {
    min-width: 100%;
-   min-height: 5em; /* To start with */
+   min-height: 5em;
    scroll-snap-align: center;
 }
 /**************Standaard styling IMG**************/
@@ -278,7 +313,10 @@ body > section container:nth-of-type(4) {
 /**************Footer styling**************/
 
 
+
+
 footer {
+	font-family: 'source sans light';
  	position:relative;
 	top:0;
 	left:0;
@@ -288,8 +326,27 @@ footer {
 }
 
 footer p {
-	display:flex;
-	justify-content:center;
+	padding: 1em;
+	font-family: 'source sans bold';
+	margin: auto;
+	align-items:center;
+	text-align: center;
+}
+
+footer ul {
+	margin: auto;
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	align-items:center;
+	text-align: center;
+}
+
+footer li {
+	margin: auto;
+	list-style:none;
+	margin: 0;
+	padding: 0;
 	align-items:center;
 	text-align: center;
 }

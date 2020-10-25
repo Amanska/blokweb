@@ -1,14 +1,14 @@
 @font-face {
-  font-family: "source sans";
-  src: url("fonts/SourceSansPro-Regular.ttf") ;
+	font-family: "source sans";
+	src: url("fonts/SourceSansPro-Regular.ttf") ;
 }
 @font-face {
-  font-family: "source sans light";
-  src: url("fonts/SourceSansPro-Light.ttf") ;
+	font-family: "source sans light";
+	src: url("fonts/SourceSansPro-Light.ttf") ;
 }
 @font-face {
-  font-family: "source sans bold";
-  src: url("fonts/SourceSansPro-Bold.ttf") ;
+	font-family: "source sans bold";
+	src: url("fonts/SourceSansPro-Bold.ttf") ;
 }
 
 /**************Main pagina en font styling**************/
@@ -22,7 +22,7 @@ body {
 }
 
 
-h1,h2,h3,h4,p {
+h1,h2,h3,h4,p{
 	font-family: 'source sans';
 	font-weight: 400;
 	text-align: center;
@@ -30,6 +30,28 @@ h1,h2,h3,h4,p {
 
 section,div {
 	margin: auto;
+}
+/**************Speciaal shop  styling**************/
+section p:first-of-type{
+	color: #FFB300;
+	font-size: 1.8em;
+	margin: 0;
+	padding: 0;
+}
+section:nth-of-type(2) h2{
+	font-family: "source sans light";
+	margin: 0;
+	padding: 0;
+}
+section:nth-of-type(2) h3{
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+}
+
+/**************Hidden styling**************/
+.hide {
+	visibility: hidden;
 }
 
 /**************Header en Navigation styling**************/
@@ -48,8 +70,8 @@ header {
 	margin:0; padding:.4em;
 	display: block;	
 	background-color: #6EE6DD;
-
 }
+
 header p {
 	display:flex;
 	justify-content:center;
@@ -57,6 +79,18 @@ header p {
 	text-align: center;
 
 }
+
+/*img:first-of-type {
+	position: relative;
+	height: auto;
+	max-width: 50vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin:auto; 
+	padding:.5em;
+	align-items:center;
+}*/
 
 nav {
 	font-family: 'source sans bold';
@@ -68,12 +102,13 @@ nav a{
 	text-transform: uppercase;
 }
 
-nav a:hover{
-	text-decoration: none;
+nav a:focus{
 	color: #FFB300;
-	text-transform: uppercase;
 }
 
+nav a:hover{
+	color: #FFB300;
+}
 
 nav ul {
 	list-style-type: none;
@@ -119,10 +154,9 @@ input {
 
 /**************Speciaal button styling**************/
 
-
 #btn {
-	position: relative;
 	display: block;
+	position: relative;
 	margin: auto;
 	background-color: #FFC232;
 	color: white;
@@ -134,16 +168,99 @@ input {
 	font-weight: bold;
 }
 
+#btn:focus {
+	background-color: #FFCC53;
+	transition: .3s;
+}
+#btn:hover {
+	background-color: #FFCC53;
+	transition: .3s;
+}
 /**************Standaard button styling**************/
+
 
 button {
 	position: relative;
-	display: block;
 	margin: auto;
 	background: transparent;
 }
 
+button:focus {
+	transform: translateY(3px);
+}
+button:hover {
+	transform: translateY(3px);
+}  
+
+/*button {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items:center;
+	margin:0; padding:.5em;
+	height: auto;
+	max-width: 100%;
+}*/
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: .5s;
+	animation-name: fade;
+	animation-duration: .5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/**************codepen code carrousel**************/
+.testimonials {
+   max-width: 100em;
+   margin: auto;
+   position: relative;
+}
+.testimonials .btn {
+   position: absolute;
+   top: 50%;
+   margin-top: 20px;
+   height: 30px;
+   width: 30px;
+   border-radius: 15px;
+   background-color: rgba(95, 106, 117, 0.3);
+   z-index: 1;
+   line-height: 30px;
+   text-align: center;
+   color: white;
+   font-weight: bold;
+}
+.testimonials .btn:i {
+   background-color: rgba(95, 106, 117, 0.5);
+   cursor: pointer;
+}
+.testimonials .btn.next {
+   right: 15px;
+}
+.testimonials .btn.prev {
+   left: 15px;
+}
+.scroller {
+   overflow-x: scroll;
+   display: flex;
+   scroll-snap-type: x mandatory;
+}
+.item {
+   min-width: 100%;
+   min-height: 5em;
+   scroll-snap-align: center;
+}
 /**************Standaard styling IMG**************/
+
 
 img {
     display: block;
@@ -151,6 +268,18 @@ img {
     max-width: 50%;
     margin: 0 auto;
     padding: .5em;
+}
+
+img:focus {
+	background-color:rgba(192,192,192,0.3);
+  	transform: translateY(3px);
+  	transition: .3s;
+  	outline: 3px solid orange;
+}
+
+img:hover {
+  	transform: translateY(3px);
+  	transition: .3s;
 }
 
 /**************Body sections styling**************/
@@ -164,14 +293,24 @@ body > section:nth-of-type(2) {
 }
 
 body > section:nth-of-type(3) {
-	margin: 2em;
-	padding: 9em;
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: start;
+	grid-gap: 1 rem;
+}
+
+body > section container:nth-of-type(4) {
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: start;
+	grid-gap: 1 rem;
 }
 
 /**************Footer styling**************/
 
 
 footer {
+	font-family: 'source sans light';
  	position:relative;
 	top:0;
 	left:0;
@@ -181,15 +320,40 @@ footer {
 }
 
 footer p {
-	display:flex;
-	justify-content:center;
+	padding: 1em;
+	font-family: 'source sans bold';
+	margin: auto;
 	align-items:center;
 	text-align: center;
 }
 
+footer ul {
+	margin: auto;
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	align-items:center;
+	text-align: center;
+}
+
+footer li {
+	margin: auto;
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	align-items:center;
+	text-align: center;
+}
+/**************Foto bladeren IMG grootte**************/
+
+#fotobladeren {
+	position: relative;
+	width: 50%;
+}
+
 /**************Alle focus elementen**************/
 
-img:focus {
+article:focus {
 	transition: .3s;
 	outline: 3px solid orange;
 	background: #F6F0EB;	
@@ -208,6 +372,56 @@ form:focus {
 	outline: 3px solid orange;
 	background: #F6F0EB;	
 }
+
+
+
+/*#fotobladeren #btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #FFB300;
+	color: white;
+	font-size: 1em;
+	padding: 15px 15px;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
+}*/
+
+/*section > button:nth-of-type(1) {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #FFC232;
+	color: white;
+	font-size: 1em;
+	padding: 15px 15px;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
+}*/
+
+/*#fotobladeren img {
+    display: block;
+    max-height: 30em;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: .5em;
+}
+#fotobladeren2 img {
+    display: block;
+    max-height: 30em;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: .5em;
+}*/
+
 
 /*************Media element posities code*******/
 
