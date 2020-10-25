@@ -1,11 +1,11 @@
- const testimonials = document.querySelector('.testimonials');
-   const scroller = testimonials.querySelector('.scroller');
-   const nextBtn = testimonials.querySelector('.btn.next');
-   const prevBtn = testimonials.querySelector('.btn.prev');
-   const itemWidth = testimonials.querySelector('.item').clientWidth;
+const testimonials = document.querySelector('.testimonials');
+const scroller = testimonials.querySelector('.scroller');
+const nextBtn = testimonials.querySelector('.btn.next');
+const prevBtn = testimonials.querySelector('.btn.prev');
+const itemWidth = testimonials.querySelector('.item').clientWidth;
   
-  nextBtn.addEventListener('click', scrollToNextItem);
-  prevBtn.addEventListener('click', scrollToPrevItem);
+nextBtn.addEventListener('click', scrollToNextItem);
+prevBtn.addEventListener('click', scrollToPrevItem);
   
 function scrollToNextItem() {
    if(scroller.scrollLeft < (scroller.scrollWidth - itemWidth))
@@ -23,3 +23,4 @@ function scrollToPrevItem() {
        // This is the first item. Go to last item by setting scroll position to scroller width
        scroller.scrollTo({left: scroller.scrollWidth, top: 0, behavior:'smooth'});
 }
+

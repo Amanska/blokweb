@@ -154,7 +154,7 @@ input {
 
 /**************Speciaal button styling**************/
 
-#btn {
+#specialbtn {
 	display: block;
 	position: relative;
 	margin: auto;
@@ -168,11 +168,11 @@ input {
 	font-weight: bold;
 }
 
-#btn:focus {
+#specialbtn:focus {
 	background-color: #FFCC53;
 	transition: .3s;
 }
-#btn:hover {
+#specialbtn:hover {
 	background-color: #FFCC53;
 	transition: .3s;
 }

@@ -136,8 +136,11 @@ input {
 }
 
 /**************Speciaal button styling**************/
-
-#btn {
+#specialbtn a{
+	text-decoration: none;
+	color: white;
+}
+#specialbtn {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -154,11 +157,11 @@ input {
 	font-weight: bold;
 }
 
-#btn:focus {
+#specialbtn:focus {
 	background-color: #FFCC53;
 	transition: .3s;
 }
-#btn:hover {
+#specialbtn:hover {
 	background-color: #FFCC53;
 	transition: .3s;
 }
