@@ -19,8 +19,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
-
+![-Eindresultaat-](images/eindresultaat1.png)
+![-Eindresultaat-](images/eindresultaat2.png)
 
 
 ## Voortgang 3 (week 6)
