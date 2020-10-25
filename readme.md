@@ -15,7 +15,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Uiteindelijk heb ik nog veel moeite gehad met mijn javascript werkend krijgen voor mijn eindwebsite, ik heb ontzettend veel tijd hieraan besteed.
+Ik heb de javascript in 2 delen gemaakt voor de twee carrousels in het eind.
+Ook heb ik de laatste puntjes op de i gezeet door middel van buttons en invulvelden toe te voegen met een paar focus elementen.
 
 **Screenshot(s):**
 
