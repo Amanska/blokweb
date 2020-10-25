@@ -34,6 +34,7 @@ section,div {
 
 /**************Hidden styling**************/
 .hide {
+	position: absolute;
 	visibility: hidden;
 }
 
@@ -328,6 +329,11 @@ article:hover {
   	transition: .3s;
 }
 
+
+header img:hover {
+  	transform: translateY(3px);
+  	transition: .3s;
+}
 
 /**************Body/main sections styling**************/
 

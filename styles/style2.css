@@ -49,8 +49,17 @@ section:nth-of-type(2) h3{
 	padding: 0;
 }
 
+header input{
+	position: relative;
+	display: inline;
+	border: none;
+	height: 2em;
+	margin: auto;
+}
+
 /**************Hidden styling**************/
 .hide {
+	position: absolute;
 	visibility: hidden;
 }
 
@@ -79,18 +88,6 @@ header p {
 	text-align: center;
 
 }
-
-/*img:first-of-type {
-	position: relative;
-	height: auto;
-	max-width: 50vw;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin:auto; 
-	padding:.5em;
-	align-items:center;
-}*/
 
 nav {
 	font-family: 'source sans bold';
@@ -144,17 +141,8 @@ nav li {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-input {
-	position: relative;
-	display: inline;
-	border: none;
-	height: 2em;
-	margin: auto;
-}
-
 /**************Speciaal button styling**************/
-
-#specialbtn {
+.specialbtn {
 	display: block;
 	position: relative;
 	margin: auto;
@@ -166,13 +154,14 @@ input {
 	cursor: pointer;
 	text-transform: uppercase;
 	font-weight: bold;
+	text-decoration: none;
 }
 
-#specialbtn:focus {
+.specialbtn:focus {
 	background-color: #FFCC53;
 	transition: .3s;
 }
-#specialbtn:hover {
+.specialbtn:hover {
 	background-color: #FFCC53;
 	transition: .3s;
 }
@@ -192,15 +181,6 @@ button:hover {
 	transform: translateY(3px);
 }  
 
-/*button {
-	display:flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items:center;
-	margin:0; padding:.5em;
-	height: auto;
-	max-width: 100%;
-}*/
 /* Fading animation */
 .fade {
 	-webkit-animation-name: fade;
@@ -219,46 +199,6 @@ button:hover {
   to {opacity: 1}
 }
 
-/**************codepen code carrousel**************/
-.testimonials {
-   max-width: 100em;
-   margin: auto;
-   position: relative;
-}
-.testimonials .btn {
-   position: absolute;
-   top: 50%;
-   margin-top: 20px;
-   height: 30px;
-   width: 30px;
-   border-radius: 15px;
-   background-color: rgba(95, 106, 117, 0.3);
-   z-index: 1;
-   line-height: 30px;
-   text-align: center;
-   color: white;
-   font-weight: bold;
-}
-.testimonials .btn:i {
-   background-color: rgba(95, 106, 117, 0.5);
-   cursor: pointer;
-}
-.testimonials .btn.next {
-   right: 15px;
-}
-.testimonials .btn.prev {
-   left: 15px;
-}
-.scroller {
-   overflow-x: scroll;
-   display: flex;
-   scroll-snap-type: x mandatory;
-}
-.item {
-   min-width: 100%;
-   min-height: 5em;
-   scroll-snap-align: center;
-}
 /**************Standaard styling IMG**************/
 
 
@@ -344,6 +284,15 @@ footer li {
 	align-items:center;
 	text-align: center;
 }
+
+footer input{
+	position: relative;
+	display: inline;
+	border: none;
+	height: 2em;
+	margin: auto;
+}
+
 /**************Foto bladeren IMG grootte**************/
 
 #fotobladeren {
@@ -372,55 +321,6 @@ form:focus {
 	outline: 3px solid orange;
 	background: #F6F0EB;	
 }
-
-
-
-/*#fotobladeren #btn {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	background-color: #FFB300;
-	color: white;
-	font-size: 1em;
-	padding: 15px 15px;
-	border: none;
-	cursor: pointer;
-	text-transform: uppercase;
-	font-weight: bold;
-}*/
-
-/*section > button:nth-of-type(1) {
-	position: relative;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	background-color: #FFC232;
-	color: white;
-	font-size: 1em;
-	padding: 15px 15px;
-	border: none;
-	cursor: pointer;
-	text-transform: uppercase;
-	font-weight: bold;
-}*/
-
-/*#fotobladeren img {
-    display: block;
-    max-height: 30em;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: .5em;
-}
-#fotobladeren2 img {
-    display: block;
-    max-height: 30em;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: .5em;
-}*/
 
 
 /*************Media element posities code*******/
